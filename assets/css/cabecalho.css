@@ -1,0 +1,143 @@
+body {
+  color: #fff;
+  font-family: "Circular Spotify Tx T Black";
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.cabecalho {
+  background-color: #000;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho .logo img {
+  margin-left: 140px;
+  height: 33px;
+}
+.listao {
+  display: flex;
+  align-items: center;
+}
+.lista {
+  display: flex;
+  list-style-type: none;
+  margin-right: 140px;
+  align-content: center; /*vertical*/
+}
+.lista li:hover {
+  color: #ff0000;
+}
+.lista li {
+  margin-left: 50px;
+  text-align: center;
+  letter-spacing: 0.57px;
+  font-size: 19px;
+  font-weight: normal;
+  font-family: "Circular Spotify Tx T Black";
+  color: #ffffff;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.pagina {
+  background-image: url("../img/Beautiful_city_night_building_traffic_lighting_1366x768.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  width: 1920px;
+  height: 1000px;
+}
+
+h1 {
+  font-family: "Circular Spotify Tx T Black";
+  font-size: 100px;
+  color: #ffffff;
+  letter-spacing: -4px;
+  opacity: 1;
+  top: 470px;
+  left: 140px;
+  width: 814px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  /* justify-content: center; */
+}
+button {
+  color: #fff;
+  font-family: "Circular Spotify Tx T Black";
+  font-size: 18px;
+  letter-spacing: 0.54px;
+  border-radius: 3px;
+  top: 427px;
+  left: 140px;
+  width: 128px;
+  height: 32px;
+  /* display: flex; */
+  align-items: center;
+  /* float: left; */
+  position: relative;
+  justify-content: center;
+}
+.filmes {
+  background-color: #ffffff;
+  letter-spacing: 0.54px;
+  color: #5a5a5a;
+  opacity: 1;
+}
+.botao {
+  background-color: Transparent;
+  border-color: #fff;
+}
+.informacoes {
+  background-color: #ff0000;
+  border: none;
+  border-radius: 3px;
+  top: 724px;
+  width: 310px;
+  height: 64px;
+}
+
+/*-------------------------------------------------------*/
+
+.conteudo {
+  left: 140px;
+  position: absolute;
+}
+h2 {
+  font-family: "Circular Spotify Tx T Black";
+  font-size: 42px;
+  color: #ff0000;
+  letter-spacing: -4px;
+  display: flex;
+  position: relative;
+  margin-top: 101px;
+}
+.conteudo ul {
+  display: flex;
+}
+.conteudofilmes {
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.conteudo img {
+  width: 248px;
+  height: 387px;
+  border-radius: 3px;
+  margin-right: 30px;
+}
+.botaoconteudo {
+  background-color: Transparent;
+  border-color: #fff;
+}
+
+/* Alinhar = Gerenciar espaço vertical
+Justificar = Gerenciar dimensóes horizontais
+
+Para jusificar e alinhar com facilidade use a propriedade flex (display: flex) no elemento imeditamente pai do(s) elemento(s) 
+que se pretende alinhar e/ou justificar usando aling=itens e/ou justify-content */
